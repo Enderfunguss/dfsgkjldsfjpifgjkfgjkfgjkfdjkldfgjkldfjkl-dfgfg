@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body background="https://img.wallpapersafari.com/desktop/1920/1080/91/60/M9k5Ka.png">
+    <div class="btn-primary">
+        <div class="btn-outline-dark center">
+            <h1 class="display-6">AI object finder</h1>
+            <p>input a name for the given object you want to find in your camer (only input names given in cocossd detector model)</p>
+        </div>
+    </div>
+    <div class="contents center">
+        <label>Object name:</label>
+        <br>
+        <input id="objName" type="text">
+        <br><br>
+        <button id="start" class="btn btn-success" onclick="start()">start</button>
+        <br><br><br>
+        <button id="harold" class="btn btn-danger">Status: not started</button>
+        <button id="objFound" class="btn btn-warning"></button>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+  background-size: cover;
+}
+
+canvas {
+  border: solid 2px black;
+  margin-top: 200px;
+}
+
+.center {
+  text-align: center;
+}
